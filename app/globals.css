@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme{
+  --font-epilogue: "Epilogue";
+  --font-dm-sans: "DM Sans";
+
+  --color-greytext:#9B9A95;
+
+  --color-primary: #51a3a3;
+  --color-accent: #c2e812;
+  --color-secondary: #75485e;
+  --color-warm: #cb904d;
+  --color-highlight: #f98948;
+}
