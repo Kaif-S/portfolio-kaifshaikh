@@ -15,9 +15,9 @@ const ThemeSwitcher = () => {
         element.style.setProperty("--color-highlight",themes[id].highlight)
     }
   return (
-    <div className='absolute right-3 bottom-6 flex-col gap-6 flex'>
+    <div className='fixed right-4 bottom-6 flex-col gap-6 flex'>
     {themes.map((element,id)=>{
-     return <button key={id} onClick={()=>handlethemechange(id)} style={{backgroundColor:themes[id].primary}} className={`cursor-pointer ${Theme===id&&'ring-3 ring-accent'} transition-all duration-300 hover:scale-110 rounded-full lg:size-10`}></button> 
+     return <button key={id} onClick={()=>handlethemechange(id)} style={{backgroundColor:themes[id].primary}} className={`cursor-pointer ${Theme===id&&'ring-3 ring-accent/70'} transition-all duration-300 hover:scale-110 rounded-full lg:size-10`}></button> 
     })}
    </div>
   )
