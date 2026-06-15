@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollReveal from "../ui/ScrollReveal";
 
 const About = () => {
   const cardDATA = [
@@ -9,6 +10,7 @@ const About = () => {
   ]
   return (
     <section className="bg-[#111114] py-30" id="about-section">
+      <ScrollReveal delay={0.4} duration={0.8}>
       <h2 className="uppercase lg:mx-28 font-dm-sans text-xl text-gray-400">
         about me
       </h2>
@@ -34,6 +36,7 @@ const About = () => {
           })}
         </div>
       </div>
+      </ScrollReveal>
     </section>
   );
 };
