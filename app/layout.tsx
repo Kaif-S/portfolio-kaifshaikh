@@ -66,9 +66,9 @@ export const metadata: Metadata = {
 };
 
 const epilogue = Syne({
-  display:"auto",
+  display:"swap",
   subsets:['latin'],
-  variable:"--font-epilogue"
+  variable:"--font-epilogue",
 })
 const dm_sans = DM_Sans({
   display:"auto",
