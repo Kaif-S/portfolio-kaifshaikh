@@ -1,6 +1,6 @@
 import React from "react";
 import { skills } from "@/lib/data";
-import ScrollReveal from "../ui/ScrollReveal";
+import Skill from "../Skill";
 
 const SkillSection = () => {
   return (
@@ -24,31 +24,11 @@ const SkillSection = () => {
         </p>
       </div>
       <div className="flex flex-col gap-8">
-        <div>
-          <ScrollReveal duration={0.4} delay={0}>
-          <div className="flex gap-2 items-center mb-4">
-            <h4
-              className="font-epilogue uppercase w-fit font-semibold text-global title-desector"
-              style={{ letterSpacing: "4px" }}
-            >
-              Frontend
-            </h4>
-            <div className="w-full h-px bg-global/30"></div>
-          </div>{" "}
-            <div className="flex gap-2">
-              {skills.Frontend.map((index, i) => {
-                return (
-                  <div
-                    key={i}
-                    className="bg-[#1E1E24] px-4 py-2 font-dm-sans  w-fit mr-4 text-global rounded-lg border border-global/40 transition-all duration-300 hover:text-primary hover:border-primary hover:-translate-y-1"
-                  >
-                    {index}
-                  </div>
-                );
-              })}
-            </div>
-          </ScrollReveal>
-        </div>
+        <Skill delay={0.1} duration={0.4} array={skills.Frontend} title="frontend"/>
+        <Skill delay={0.1} duration={0.4} array={skills.Backend} title="backend"/>
+        <Skill delay={0.1} duration={0.4} array={skills.Database} title="database"/>
+        <Skill delay={0.1} duration={0.4} array={skills["Machine Learning"]} title="machine learning"/>
+        <Skill delay={0.1} duration={0.4} array={skills["Tools & Platforms"]} title="tools & platforms"/>
       </div>
     </section>
   );
