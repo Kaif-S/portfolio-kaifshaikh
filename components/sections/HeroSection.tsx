@@ -11,7 +11,7 @@ const HeroSection = () => {
         <p className='md:text-lg text-center lg:text-left text-greytext lg:w-xl font-dm-sans'>
           I build modern web applications, scalable backend systems, and AI-powered solutions that solve real-world problems.
         </p>
-        <div className=' flex md:gap-6 gap-3 font-dm-sans justify-center'>
+        <div className=' flex md:gap-6 gap-3 font-dm-sans md:justify-start justify-center'>
           <button className='rounded-xl bg-accent px-6 py-4 transition-all duration-400 shadow-accent hover:shadow-lg cursor-pointer hover:-translate-y-2'>View Projects</button>
           <button className='cursor-pointer rounded-xl px-6 py-4 border text-white font-semibold border-gray-700 hover:text-primary hover:border-primary transition-all duration-400 hover:-translate-y-2'>Contact me</button>
         </div>

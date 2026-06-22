@@ -1,9 +1,10 @@
 export const skills = {
   Frontend: ["React", "Next.js", "Tailwind CSS", "JavaScript", "TypeScript"],
-  Backend: ["Node.js", "Express.js", "Django", "REST APIs"],
-  Database: ["MongoDB", "MySQL"],
+  Backend: ["Node.js", "Express.js", "Django", "REST APIs" , "Fast API" , "GO-GIN"],
+  Database: ["MongoDB", "MySQL","PostgreSql","Reddis"],
   "Machine Learning": ["Python", "Scikit-Learn", "Pandas", "NumPy", "TensorFlow"],
-  "Tools & Platforms": ["Git", "GitHub", "Vercel", "WordPress", "Selenium", "BeautifulSoup", "Scrapy"],
+  "Tools & Platforms": ["Git", "GitHub", "Vercel", "Selenium", "BeautifulSoup", "Scrapy"],
+  Devops:["Load balancing","Micro Services","Distributed Systems","CI/CD pipelines"]
 };
 
 export const stats = [

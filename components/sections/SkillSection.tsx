@@ -29,6 +29,7 @@ const SkillSection = () => {
         <Skill delay={0.1} duration={0.4} array={skills.Database} title="database"/>
         <Skill delay={0.1} duration={0.4} array={skills["Machine Learning"]} title="machine learning"/>
         <Skill delay={0.1} duration={0.4} array={skills["Tools & Platforms"]} title="tools & platforms"/>
+        {/* <Skill delay={0.1} duration={0.4} array={skills.Devops} title="Devops"/> */}
       </div>
     </section>
   );
