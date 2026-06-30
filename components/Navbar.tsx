@@ -9,8 +9,8 @@ const Navbar = () => {
             <ul className='flex gap-8 justify-center text-center'>
                 <li className='hover:text-gray-200 relative nav-tag duration-200 transition-colors text-gray-400 cursor-pointer'><a href="#about-section">About</a></li>
                 <li className='hover:text-gray-200 relative nav-tag duration-200 transition-colors text-gray-400 cursor-pointer'><a href="#skills-section">Skills</a></li>
+                <li className='hover:text-gray-200 relative nav-tag duration-200 transition-colors text-gray-400 cursor-pointer'><a href="#project-section">Projects</a></li>
                 <li className='hover:text-gray-200 relative nav-tag duration-200 transition-colors text-gray-400 cursor-pointer'><a href="#services-section">Services</a></li>
-                <li className='hover:text-gray-200 relative nav-tag duration-200 transition-colors text-gray-400 cursor-pointer'><a href="#projects-section">Projects</a></li>
             </ul>
         </div>
         <div className='md:inline hidden'>

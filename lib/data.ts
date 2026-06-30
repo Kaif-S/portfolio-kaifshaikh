@@ -22,7 +22,7 @@ export interface Project {
   accentGradient: string;
   bgGradient: string;
   githubUrl: string;
-  liveUrl: string;
+  liveUrl: string | null;
   techColor?: string;
 }
 
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     accentGradient: "linear-gradient(90deg, var(--color-highlight), var(--color-warm))",
     bgGradient: "linear-gradient(135deg, #0D0D1A, #1A1A2E, #16213E)",
     githubUrl: "https://github.com",
-    liveUrl: "#",
+    liveUrl: null,
     techColor: "highlight",
   },
 ];
